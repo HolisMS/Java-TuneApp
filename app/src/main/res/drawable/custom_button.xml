@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<shape-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--&gt;-->
+    <!--<corners-->
+        <!--android:bottomLeftRadius="8dp"-->
+        <!--android:bottomRightRadius="8dp"-->
+        <!--android:radius="40dp"-->
+        <!--android:topLeftRadius="8dp"-->
+        <!--android:topRightRadius="8dp" />-->
+
+    <!--<size-->
+        <!--android:height="40dp"-->
+        <!--android:width="150dp" />-->
+    <!--<solid android:color="@color/colorYellow" />-->
+<!--</shape>-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:state_enabled="true"
+        android:drawable="@drawable/button_pressed" />
+
+    <item
+        android:state_enabled="true"
+        android:drawable="@drawable/button_gradient" />
+</selector>

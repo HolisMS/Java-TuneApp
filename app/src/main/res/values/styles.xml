@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.noActionBar" parent="Theme.AppCompat">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.noActionBarLogin" parent="Theme.AppCompat.DayNight">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <style name="AppTheme.actionBar" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorAccent</item>
+        <item name="android:textColorSecondary">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.bottomNav" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
+    
+    <style name="AppTheme.spinner" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:textSize">@dimen/title_toolbar</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="AppTheme.EditText" parent="Theme.AppCompat">
+        <item name="colorControlActivated">@color/colorLineEditText</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+    </style>
+
+    <style name="AppTheme.EditTextLogin" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.FloatButton" parent="Theme.AppCompat">
+        <item name="colorAccent">@color/colorYellow</item>
+    </style>
+
+</resources>

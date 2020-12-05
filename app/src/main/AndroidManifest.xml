@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="satella.app.servicemoto">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_foreground_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".fragment.InfoDetailsActivity"
+            android:theme="@style/AppTheme.noActionBar" />
+        <activity
+            android:name=".login_page.RegisterActivity"
+            android:theme="@style/AppTheme.noActionBarLogin" />
+        <activity
+            android:name=".login_page.LoginActivity"
+            android:theme="@style/AppTheme.noActionBarLogin">
+
+        </activity>
+        <activity android:name=".catatan_page.NoteAddUpdateActivity" />
+        <activity
+            android:name=".catatan_page.CatatanActivity"
+            android:theme="@style/AppTheme.noActionBar" />
+        <activity
+            android:name=".reminder_page.EditReminderActivity"
+            android:theme="@style/AppTheme.noActionBar" />
+
+        <receiver
+            android:name=".reminder_page.AlarmReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".reminder_page.ReminderActivity"
+            android:theme="@style/AppTheme.noActionBar" />
+        <activity
+            android:name=".motor_page.ServiceMotorActivity"
+            android:theme="@style/AppTheme.noActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.noActionBar">
+
+        </activity>
+
+        <service
+            android:name=".widgets.StackWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <receiver android:name=".widgets.BannerWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/banner_widget_info" />
+        </receiver>
+    </application>
+
+</manifest>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">TuneApp</string>
+
+    <string name="error_message">Tidak boleh kosong</string>
+
+    <string name="home">Beranda</string>
+    <string name="info">Info</string>
+    <string name="todo">TODO</string>
+
+    <string name="set_reminder">Reminder</string>
+    <string name="edit_reminder">Edit Reminder</string>
+    <string name="default_tgl">00–00–0000</string>
+    <string name="default_jam">00:00</string>
+    <string name="jam_servis">Jam Servis</string>
+    <string name="tgl_servis">Tanggal Servis</string>
+    <string name="ubah_data">Ubah Data</string>
+
+
+    <string name="cek_km">Cek Kilometer Motor</string>
+    <string name="km_servis_terakhir">Kilometer Servis Terakhir</string>
+    <string name="km_saat_ini">Kilometer Saat ini</string>
+    <string name="cek">Cek</string>
+    <string name="jenis_motor">Jenis Motor</string>
+    <string name="note">Note</string>
+    <string name="waktunya_servis">Waktunya Servis</string>
+    <string name="belum_waktu_servis">Belum Waktunya Servis</string>
+
+    <string name="catatan">Catatan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appwidget_text">Daftar Reminder</string>
+    <string name="add_widget">Add widget</string>
+
+
+</resources>
